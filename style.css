@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url('https://media.canva.com/v2/image-resize/format:PNG/height:1104/quality:100/uri:ifs%3A%2F%2F%2Fffd726da-43e5-469a-bdb1-655368874229/watermark:F/width:736?csig=AAAAAAAAAAAAAAAAAAAAALm1NUOMGOE5xO9Oe-rIWW5xmYMIMhEL1qda-4wukQgX&exp=1746074455&osig=AAAAAAAAAAAAAAAAAAAAAPnznyAPrmVf-rolnqDGzLwS624uKwIfhDoSvPP1UVh3&signer=media-rpc&x-canva-quality=screen_2x');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar{
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+.icon{
+  width: 300px;
+  float: left;
+  height: 70px;
+}
+
+.logo{
+  color: #ff7200;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+}
+
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+  color: #f90;
+}
+
+.hero-text {
+  position: relative;
+  text-align: center;
+  color: orange;
+}
+
+.hero {
+  background-image: url('https://media.canva.com/v2/image-resize/format:PNG/height:1104/quality:100/uri:ifs%3A%2F%2F%2Fffd726da-43e5-469a-bdb1-655368874229/watermark:F/width:736?csig=AAAAAAAAAAAAAAAAAAAAALm1NUOMGOE5xO9Oe-rIWW5xmYMIMhEL1qda-4wukQgX&exp=1746074455&osig=AAAAAAAAAAAAAAAAAAAAAPnznyAPrmVf-rolnqDGzLwS624uKwIfhDoSvPP1UVh3&signer=media-rpc&x-canva-quality=screen_2x'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0; left: 0; right: 0; bottom: 0;
+}
+
+.hero-text h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta {
+  background-color: orange;
+  color: black;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.cta:hover {
+  background-color: #ff9900;
+}
